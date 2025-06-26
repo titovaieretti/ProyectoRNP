@@ -1,0 +1,14 @@
+# Ignorar datasets, modelos y recursos pesados
+data/
+*.zip
+*.tar
+*.jpg
+*.png
+*.jpeg
+
+# Archivos temporales de Python y Jupyter
+__pycache__/
+*.ipynb_checkpoints
+
+# Archivos de entorno
+.env
