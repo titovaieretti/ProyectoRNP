@@ -12,9 +12,11 @@ Este proyecto utiliza una red neuronal fine-tuned basada en EfficientNet-B0 para
  - efficientnet_b0.pth : Red efficientnet_b0 con fine tuning entrenada
  - requirements.txt : Requerimientos necesarios para la ejecucion de la aplicacion
 
-## Cómo ejecutar la aplicación
+## Cómo ejecutar la aplicación localmente
 ```bash
 pip install -r requirements.txt
 cd prod
 streamlit run app.py
 
+## Link streamlit cloud
+https://redesneuronalesprofundasvaieretti.streamlit.app/
