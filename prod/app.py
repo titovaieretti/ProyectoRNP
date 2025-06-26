@@ -5,7 +5,7 @@ import numpy as np
 from utils import load_model, preprocess_image, CLASS_LABELS, obtener_recomendacion
 
 DEVICE = torch.device("cpu")
-MODEL_PATH = "efficientnet_b0.pth"
+MODEL_PATH = "prod/efficientnet_b0.pth"
 
 @st.cache_resource
 def get_model():
