@@ -15,5 +15,6 @@ Este proyecto utiliza una red neuronal fine-tuned basada en EfficientNet-B0 para
 ## Cómo ejecutar la aplicación
 ```bash
 pip install -r requirements.txt
+cd prod
 streamlit run app.py
 
